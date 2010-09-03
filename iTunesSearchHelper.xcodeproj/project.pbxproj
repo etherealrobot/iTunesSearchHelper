@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F613BC671230BA9300598136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F613BC661230BA9300598136 /* UIKit.framework */; };
+		F613BC691230BA9300598136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F613BC681230BA9300598136 /* Foundation.framework */; };
+		F613BC6B1230BA9300598136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F613BC6A1230BA9300598136 /* CoreGraphics.framework */; };
+		F613BC701230BA9300598136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F613BC6E1230BA9300598136 /* InfoPlist.strings */; };
+		F613BC721230BA9300598136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F613BC711230BA9300598136 /* main.m */; };
+		F613BC751230BA9300598136 /* iTunesSearchHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F613BC741230BA9300598136 /* iTunesSearchHelperAppDelegate.m */; };
+		F613BC781230BA9300598136 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F613BC761230BA9300598136 /* MainWindow.xib */; };
+		F613BC7B1230BA9300598136 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F613BC7A1230BA9300598136 /* RootViewController.m */; };
+		F613BC7E1230BA9300598136 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F613BC7C1230BA9300598136 /* RootViewController.xib */; };
+		F6935CB81230BB6600D668AD /* ERITunesSearchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F613BC631230BA9300598136 /* iTunesSearchHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearchHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F613BC661230BA9300598136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F613BC681230BA9300598136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F613BC6A1230BA9300598136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F613BC6C1230BA9300598136 /* iTunesSearchHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesSearchHelper-Info.plist"; sourceTree = "<group>"; };
+		F613BC6D1230BA9300598136 /* iTunesSearchHelper_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesSearchHelper_Prefix.pch; sourceTree = "<group>"; };
+		F613BC6F1230BA9300598136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F613BC711230BA9300598136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F613BC731230BA9300598136 /* iTunesSearchHelperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesSearchHelperAppDelegate.h; sourceTree = "<group>"; };
+		F613BC741230BA9300598136 /* iTunesSearchHelperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesSearchHelperAppDelegate.m; sourceTree = "<group>"; };
+		F613BC771230BA9300598136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F613BC791230BA9300598136 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F613BC7A1230BA9300598136 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F613BC7D1230BA9300598136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F6935CB61230BB6600D668AD /* ERITunesSearchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesSearchHelper.h; sourceTree = "<group>"; };
+		F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesSearchHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F613BC601230BA9200598136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F613BC671230BA9300598136 /* UIKit.framework in Frameworks */,
+				F613BC691230BA9300598136 /* Foundation.framework in Frameworks */,
+				F613BC6B1230BA9300598136 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F613BC541230BA9100598136 = {
+			isa = PBXGroup;
+			children = (
+				F613BC5B1230BA9200598136 /* Classes */,
+				F613BC5C1230BA9200598136 /* Other Sources */,
+				F613BC5D1230BA9200598136 /* Resources */,
+				F613BC5E1230BA9200598136 /* Frameworks */,
+				F613BC641230BA9300598136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F613BC5B1230BA9200598136 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6935CB61230BB6600D668AD /* ERITunesSearchHelper.h */,
+				F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */,
+				F613BC731230BA9300598136 /* iTunesSearchHelperAppDelegate.h */,
+				F613BC741230BA9300598136 /* iTunesSearchHelperAppDelegate.m */,
+				F613BC791230BA9300598136 /* RootViewController.h */,
+				F613BC7A1230BA9300598136 /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F613BC5C1230BA9200598136 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F613BC6D1230BA9300598136 /* iTunesSearchHelper_Prefix.pch */,
+				F613BC711230BA9300598136 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F613BC5D1230BA9200598136 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F613BC6C1230BA9300598136 /* iTunesSearchHelper-Info.plist */,
+				F613BC6E1230BA9300598136 /* InfoPlist.strings */,
+				F613BC761230BA9300598136 /* MainWindow.xib */,
+				F613BC7C1230BA9300598136 /* RootViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F613BC5E1230BA9200598136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F613BC661230BA9300598136 /* UIKit.framework */,
+				F613BC681230BA9300598136 /* Foundation.framework */,
+				F613BC6A1230BA9300598136 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F613BC641230BA9300598136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F613BC631230BA9300598136 /* iTunesSearchHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F613BC621230BA9200598136 /* iTunesSearchHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F613BC811230BA9300598136 /* Build configuration list for PBXNativeTarget "iTunesSearchHelper" */;
+			buildPhases = (
+				F613BC5F1230BA9200598136 /* Sources */,
+				F613BC601230BA9200598136 /* Frameworks */,
+				F613BC611230BA9200598136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesSearchHelper;
+			productName = iTunesSearchHelper;
+			productReference = F613BC631230BA9300598136 /* iTunesSearchHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F613BC561230BA9100598136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ethereal Robot, LLC";
+			};
+			buildConfigurationList = F613BC591230BA9100598136 /* Build configuration list for PBXProject "iTunesSearchHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F613BC541230BA9100598136;
+			productRefGroup = F613BC641230BA9300598136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F613BC621230BA9200598136 /* iTunesSearchHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F613BC611230BA9200598136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F613BC701230BA9300598136 /* InfoPlist.strings in Resources */,
+				F613BC781230BA9300598136 /* MainWindow.xib in Resources */,
+				F613BC7E1230BA9300598136 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F613BC5F1230BA9200598136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F613BC721230BA9300598136 /* main.m in Sources */,
+				F613BC751230BA9300598136 /* iTunesSearchHelperAppDelegate.m in Sources */,
+				F613BC7B1230BA9300598136 /* RootViewController.m in Sources */,
+				F6935CB81230BB6600D668AD /* ERITunesSearchHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F613BC6E1230BA9300598136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F613BC6F1230BA9300598136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F613BC761230BA9300598136 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F613BC771230BA9300598136 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F613BC7C1230BA9300598136 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F613BC7D1230BA9300598136 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F613BC7F1230BA9300598136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		F613BC801230BA9300598136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		F613BC821230BA9300598136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTunesSearchHelper_Prefix.pch;
+				INFOPLIST_FILE = "iTunesSearchHelper-Info.plist";
+				PRODUCT_NAME = iTunesSearchHelper;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F613BC831230BA9300598136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTunesSearchHelper_Prefix.pch;
+				INFOPLIST_FILE = "iTunesSearchHelper-Info.plist";
+				PRODUCT_NAME = iTunesSearchHelper;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F613BC591230BA9100598136 /* Build configuration list for PBXProject "iTunesSearchHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F613BC7F1230BA9300598136 /* Debug */,
+				F613BC801230BA9300598136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F613BC811230BA9300598136 /* Build configuration list for PBXNativeTarget "iTunesSearchHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F613BC821230BA9300598136 /* Debug */,
+				F613BC831230BA9300598136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F613BC561230BA9100598136 /* Project object */;
+}
