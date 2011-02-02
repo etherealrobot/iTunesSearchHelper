@@ -20,9 +20,25 @@
 
 #import <Foundation/Foundation.h>
 
+@class ERITunesSearchQuery;
+@class ERITunesSearchResult;
+@class ERITunesSearchHelper;
+
+@protocol ERITunesSearchHelperDelegate <NSObject>
+
+- (void)search:(ERITunesSearchHelper*) search didFailWithError:(NSError *) error;
+- (void)search:(ERITunesSearchHelper*) search didCompleteWithResult:(ERITunesSearchResult *) result;
+
+@end
+
 
 @interface ERITunesSearchHelper : NSObject {
-
+	id <ERITunesSearchHelperDelegate> delegate;
+	NSString *affiliateId;
 }
 
+@property (nonatomic, assign)id <ERITunesSearchHelperDelegate> delegate;
+@property (nonatomic, retain) NSString *affiliateId;
+
+- (void)searchWithQuery:(ERITunesSearchQuery *) query;
 @end

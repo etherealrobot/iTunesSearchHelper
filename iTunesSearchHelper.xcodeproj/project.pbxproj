@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F613BC671230BA9300598136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F613BC661230BA9300598136 /* UIKit.framework */; };
-		F613BC691230BA9300598136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F613BC681230BA9300598136 /* Foundation.framework */; };
-		F613BC6B1230BA9300598136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F613BC6A1230BA9300598136 /* CoreGraphics.framework */; };
+		90B9874012EA944E00D95FE3 /* ERITunesAffiliate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9873F12EA944E00D95FE3 /* ERITunesAffiliate.m */; };
+		90B9874312EA947A00D95FE3 /* ERITunesAffiliateLinkShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9874212EA947A00D95FE3 /* ERITunesAffiliateLinkShare.m */; };
+		90B9874612EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9874512EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.m */; };
+		90B9874912EA94D000D95FE3 /* ERITunesAffiliateDGM.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9874812EA94D000D95FE3 /* ERITunesAffiliateDGM.m */; };
 		F613BC701230BA9300598136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F613BC6E1230BA9300598136 /* InfoPlist.strings */; };
 		F613BC721230BA9300598136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F613BC711230BA9300598136 /* main.m */; };
 		F613BC751230BA9300598136 /* iTunesSearchHelperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F613BC741230BA9300598136 /* iTunesSearchHelperAppDelegate.m */; };
 		F613BC781230BA9300598136 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F613BC761230BA9300598136 /* MainWindow.xib */; };
 		F613BC7B1230BA9300598136 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F613BC7A1230BA9300598136 /* RootViewController.m */; };
 		F613BC7E1230BA9300598136 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F613BC7C1230BA9300598136 /* RootViewController.xib */; };
+		F61808FE1240911A00C0B8B8 /* ERITunesSearchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F61808FD1240911A00C0B8B8 /* ERITunesSearchQuery.m */; };
+		F65E0DB51230C46C005E2D72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65E0DB41230C46C005E2D72 /* CoreGraphics.framework */; };
+		F65E0DB71230C46C005E2D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65E0DB61230C46C005E2D72 /* Foundation.framework */; };
+		F65E0DB91230C46C005E2D72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65E0DB81230C46C005E2D72 /* UIKit.framework */; };
 		F6935CB81230BB6600D668AD /* ERITunesSearchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */; };
+		F6C93C0A12B32C61006A0743 /* ERITunesAffiliateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C93C0912B32C61006A0743 /* ERITunesAffiliateHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90B9873E12EA944E00D95FE3 /* ERITunesAffiliate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesAffiliate.h; sourceTree = "<group>"; };
+		90B9873F12EA944E00D95FE3 /* ERITunesAffiliate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesAffiliate.m; sourceTree = "<group>"; };
+		90B9874112EA947A00D95FE3 /* ERITunesAffiliateLinkShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesAffiliateLinkShare.h; sourceTree = "<group>"; };
+		90B9874212EA947A00D95FE3 /* ERITunesAffiliateLinkShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesAffiliateLinkShare.m; sourceTree = "<group>"; };
+		90B9874412EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesAffiliateTradeDoubler.h; sourceTree = "<group>"; };
+		90B9874512EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesAffiliateTradeDoubler.m; sourceTree = "<group>"; };
+		90B9874712EA94D000D95FE3 /* ERITunesAffiliateDGM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesAffiliateDGM.h; sourceTree = "<group>"; };
+		90B9874812EA94D000D95FE3 /* ERITunesAffiliateDGM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesAffiliateDGM.m; sourceTree = "<group>"; };
 		F613BC631230BA9300598136 /* iTunesSearchHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearchHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F613BC661230BA9300598136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F613BC681230BA9300598136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F613BC6A1230BA9300598136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F613BC6C1230BA9300598136 /* iTunesSearchHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesSearchHelper-Info.plist"; sourceTree = "<group>"; };
 		F613BC6D1230BA9300598136 /* iTunesSearchHelper_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesSearchHelper_Prefix.pch; sourceTree = "<group>"; };
 		F613BC6F1230BA9300598136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -34,8 +45,16 @@
 		F613BC791230BA9300598136 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F613BC7A1230BA9300598136 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		F613BC7D1230BA9300598136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F61808FC1240911A00C0B8B8 /* ERITunesSearchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesSearchQuery.h; sourceTree = "<group>"; };
+		F61808FD1240911A00C0B8B8 /* ERITunesSearchQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesSearchQuery.m; sourceTree = "<group>"; };
+		F63977E3126EA61400C1EA7D /* ERITunesSearchErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesSearchErrors.h; sourceTree = "<group>"; };
+		F65E0DB41230C46C005E2D72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F65E0DB61230C46C005E2D72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F65E0DB81230C46C005E2D72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6935CB61230BB6600D668AD /* ERITunesSearchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesSearchHelper.h; sourceTree = "<group>"; };
 		F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesSearchHelper.m; sourceTree = "<group>"; };
+		F6C93C0812B32C61006A0743 /* ERITunesAffiliateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesAffiliateHelper.h; sourceTree = "<group>"; };
+		F6C93C0912B32C61006A0743 /* ERITunesAffiliateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesAffiliateHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,15 +62,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F613BC671230BA9300598136 /* UIKit.framework in Frameworks */,
-				F613BC691230BA9300598136 /* Foundation.framework in Frameworks */,
-				F613BC6B1230BA9300598136 /* CoreGraphics.framework in Frameworks */,
+				F65E0DB51230C46C005E2D72 /* CoreGraphics.framework in Frameworks */,
+				F65E0DB71230C46C005E2D72 /* Foundation.framework in Frameworks */,
+				F65E0DB91230C46C005E2D72 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90B9874C12EA951000D95FE3 /* Affiliates */ = {
+			isa = PBXGroup;
+			children = (
+				90B9873E12EA944E00D95FE3 /* ERITunesAffiliate.h */,
+				90B9873F12EA944E00D95FE3 /* ERITunesAffiliate.m */,
+				90B9874112EA947A00D95FE3 /* ERITunesAffiliateLinkShare.h */,
+				90B9874212EA947A00D95FE3 /* ERITunesAffiliateLinkShare.m */,
+				90B9874412EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.h */,
+				90B9874512EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.m */,
+				90B9874712EA94D000D95FE3 /* ERITunesAffiliateDGM.h */,
+				90B9874812EA94D000D95FE3 /* ERITunesAffiliateDGM.m */,
+			);
+			name = Affiliates;
+			sourceTree = "<group>";
+		};
+		90B9874D12EA952D00D95FE3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F613BC791230BA9300598136 /* RootViewController.h */,
+				F613BC7A1230BA9300598136 /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		F613BC541230BA9100598136 = {
 			isa = PBXGroup;
 			children = (
@@ -66,12 +109,17 @@
 		F613BC5B1230BA9200598136 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				90B9874D12EA952D00D95FE3 /* Controllers */,
+				90B9874C12EA951000D95FE3 /* Affiliates */,
 				F6935CB61230BB6600D668AD /* ERITunesSearchHelper.h */,
 				F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */,
 				F613BC731230BA9300598136 /* iTunesSearchHelperAppDelegate.h */,
 				F613BC741230BA9300598136 /* iTunesSearchHelperAppDelegate.m */,
-				F613BC791230BA9300598136 /* RootViewController.h */,
-				F613BC7A1230BA9300598136 /* RootViewController.m */,
+				F61808FC1240911A00C0B8B8 /* ERITunesSearchQuery.h */,
+				F61808FD1240911A00C0B8B8 /* ERITunesSearchQuery.m */,
+				F63977E3126EA61400C1EA7D /* ERITunesSearchErrors.h */,
+				F6C93C0812B32C61006A0743 /* ERITunesAffiliateHelper.h */,
+				F6C93C0912B32C61006A0743 /* ERITunesAffiliateHelper.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -99,9 +147,9 @@
 		F613BC5E1230BA9200598136 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F613BC661230BA9300598136 /* UIKit.framework */,
-				F613BC681230BA9300598136 /* Foundation.framework */,
-				F613BC6A1230BA9300598136 /* CoreGraphics.framework */,
+				F65E0DB41230C46C005E2D72 /* CoreGraphics.framework */,
+				F65E0DB61230C46C005E2D72 /* Foundation.framework */,
+				F65E0DB81230C46C005E2D72 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +229,12 @@
 				F613BC751230BA9300598136 /* iTunesSearchHelperAppDelegate.m in Sources */,
 				F613BC7B1230BA9300598136 /* RootViewController.m in Sources */,
 				F6935CB81230BB6600D668AD /* ERITunesSearchHelper.m in Sources */,
+				F61808FE1240911A00C0B8B8 /* ERITunesSearchQuery.m in Sources */,
+				F6C93C0A12B32C61006A0743 /* ERITunesAffiliateHelper.m in Sources */,
+				90B9874012EA944E00D95FE3 /* ERITunesAffiliate.m in Sources */,
+				90B9874312EA947A00D95FE3 /* ERITunesAffiliateLinkShare.m in Sources */,
+				90B9874612EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.m in Sources */,
+				90B9874912EA94D000D95FE3 /* ERITunesAffiliateDGM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -226,7 +280,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -234,14 +289,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -255,6 +311,7 @@
 				GCC_PREFIX_HEADER = iTunesSearchHelper_Prefix.pch;
 				INFOPLIST_FILE = "iTunesSearchHelper-Info.plist";
 				PRODUCT_NAME = iTunesSearchHelper;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,6 +325,7 @@
 				GCC_PREFIX_HEADER = iTunesSearchHelper_Prefix.pch;
 				INFOPLIST_FILE = "iTunesSearchHelper-Info.plist";
 				PRODUCT_NAME = iTunesSearchHelper;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

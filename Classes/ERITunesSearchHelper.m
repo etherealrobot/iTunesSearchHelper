@@ -18,9 +18,23 @@
 //  limitations under the License.
 //
 
-#import "ERITunesSearchHelper.h"
+//  cf. http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.html
 
+#import "ERITunesSearchHelper.h"
+#import "ERITunesSearchQuery.h"
+#import "ERITunesSearchResult.h"
+
+
+static NSString * const kERISHSearchAddress = @"http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/wa/wsSearch?";
 
 @implementation ERITunesSearchHelper
+
+@synthesize delegate, affiliateId;
+
+
+- (void)searchWithQuery:(ERITunesSearchQuery *) query;
+{
+	//
+}
 
 @end
