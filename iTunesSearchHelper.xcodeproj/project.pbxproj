@@ -41,10 +41,18 @@
 		F6823E5A130E48BB0000BF5B /* ERITunesAffiliateLinkShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9874212EA947A00D95FE3 /* ERITunesAffiliateLinkShare.m */; };
 		F6823E5B130E48BB0000BF5B /* ERITunesAffiliateTradeDoubler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9874512EA94AD00D95FE3 /* ERITunesAffiliateTradeDoubler.m */; };
 		F6823E5C130E48BB0000BF5B /* ERITunesAffiliateDGM.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9874812EA94D000D95FE3 /* ERITunesAffiliateDGM.m */; };
+		F6E28B5E130F7FD500C413FA /* ERITunesSearchQueryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E28B5D130F7FD500C413FA /* ERITunesSearchQueryTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		F6823D71130B918E0000BF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F613BC561230BA9100598136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6823D61130B916F0000BF5B;
+			remoteInfo = iTunesSearchLibrary;
+		};
+		F6E28B61130F810700C413FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F613BC561230BA9100598136 /* Project object */;
 			proxyType = 1;
@@ -87,6 +95,7 @@
 		F6935CB71230BB6600D668AD /* ERITunesSearchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesSearchHelper.m; sourceTree = "<group>"; };
 		F6C93C0812B32C61006A0743 /* ERITunesAffiliateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERITunesAffiliateHelper.h; sourceTree = "<group>"; };
 		F6C93C0912B32C61006A0743 /* ERITunesAffiliateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesAffiliateHelper.m; sourceTree = "<group>"; };
+		F6E28B5D130F7FD500C413FA /* ERITunesSearchQueryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERITunesSearchQueryTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +223,7 @@
 		F6823E4D130E45330000BF5B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F6E28B5D130F7FD500C413FA /* ERITunesSearchQueryTest.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -300,6 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F6E28B62130F810700C413FA /* PBXTargetDependency */,
 			);
 			name = iTunesSearchHelperTests;
 			productName = iTunesSearchHelperTests;
@@ -405,6 +416,7 @@
 				F6823E5A130E48BB0000BF5B /* ERITunesAffiliateLinkShare.m in Sources */,
 				F6823E5B130E48BB0000BF5B /* ERITunesAffiliateTradeDoubler.m in Sources */,
 				F6823E5C130E48BB0000BF5B /* ERITunesAffiliateDGM.m in Sources */,
+				F6E28B5E130F7FD500C413FA /* ERITunesSearchQueryTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,11 @@
 			isa = PBXTargetDependency;
 			target = F6823D61130B916F0000BF5B /* iTunesSearchLibrary */;
 			targetProxy = F6823D71130B918E0000BF5B /* PBXContainerItemProxy */;
+		};
+		F6E28B62130F810700C413FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6823D61130B916F0000BF5B /* iTunesSearchLibrary */;
+			targetProxy = F6E28B61130F810700C413FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
